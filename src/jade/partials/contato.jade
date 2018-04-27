@@ -1,0 +1,60 @@
+a(name="Contato")
+section.contato
+  .container
+    .columns
+      .column
+        article
+          hr
+          h1.titles Contato
+
+          .content-group.text-principal
+            p Entre em contato como desejar e se sentir mais confiavel. Juro que tentarei responder o mais breve possivel.
+            br
+            p
+              strong E-mail: 
+              a(href="mailto:eduardosantosj2@gmail.com") eduardosantosj2@gmail.com
+            br
+            br
+            p
+              a(href="https://www.facebook.com/eduardo.dossantos.313?ref=bookmarks")
+                img(src="img/facebook.png", alt="icon-facebook")
+              
+
+      .column.second-column
+          .columns.is-multiline.is-mobile
+            .column.has-text-centered
+
+              form(action="#",method="POST")
+                .columns
+                  .column
+                    .input-group
+                      label(for="name", class="invisible") Nome
+                      input(type="text", id="name", name="name", placeholder="Nome", required="required", class="input")
+                  
+                  .column
+                    .input-group
+                      label(for="email", class="invisible") E-mail
+                      input(type="email", id="email", name="email", placeholder="E-mail", required="required" class="input")
+            
+                .columns
+                  .column
+                    .input-group
+                      label(for="subject", class="invisible") Assunto
+                      select(id="subject", name="subject", required="required", class="input")
+                        option(selected="selected", disabled="disabled") Selecione um assunto
+                        option(value="1") Orçamento
+                        option(value="2") Dúvidas
+                        option(value="3") Sugestão
+                        option(value="4") Outro
+                
+                .columns
+                  .column
+                    .textarea-group
+                      label(for="message", class="invisible") Mensagem
+                      textarea(id="message", name="message", placeholder="Mensagem", required="required", class="textarea")
+
+                .columns
+                  .column
+                    button(type="submit", disabled="disabled", title="Desabilitado temporariamente", class="button button-black button-large button-right")
+                      span Enviar
+                      img(src="img/arrow-right.png", alt="Ilustração de uma seta para a direita", class="ml-1")

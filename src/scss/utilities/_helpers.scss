@@ -1,0 +1,40 @@
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+hr {
+  color: #382dff;
+  background-color: #382dff;
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  margin: 0;
+}
+
+.titles {
+  font-family: $font-secondary;
+  font-weight: 700;
+  color: $gray;
+  font-size: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.text-principal {
+  max-width: calc(86% - 30px);
+  margin-left: 30px;
+  padding: 15px 0 0;
+  
+  p {
+    color: $gray;
+    font-weight: 500;
+  }
+}

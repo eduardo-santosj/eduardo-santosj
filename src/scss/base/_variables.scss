@@ -1,0 +1,57 @@
+//FONT
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Oswald', sans-serif;
+
+$black: #000;
+$white: #fff;
+$gray: #333;
+$gray-light: #363636;
+
+
+$color-background: #F5F5F5;
+$color-main: #cacaca;
+$color-active: #FFF;
+$color-link: #000;
+
+$button-height: 27px;
+$button-width: 35px;
+
+//PADDING AND MARGIN
+$space: 15px;
+
+@for $i from 0 through 6 {
+	.pb-#{$i} {
+		padding-bottom: $i * $space !important;
+	}
+
+	.pl-#{$i} {
+		padding-left: $i * $space !important;
+	}
+
+	.pr-#{$i} {
+		padding-right: $i * $space !important;
+	}
+
+	.pt-#{$i} {
+		padding-top: $i * $space !important;
+	}
+}
+
+// MARGINS
+@for $i from -2 through 6 {
+	.mb-#{$i} {
+		margin-bottom: $i * $space;
+	}
+
+	.ml-#{$i} {
+		margin-left: $i * $space;
+	}
+
+	.mr-#{$i} {
+		margin-right: $i * $space;
+	}
+
+	.mt-#{$i} {
+		margin-top: $i * $space;
+	}
+}

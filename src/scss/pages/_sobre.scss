@@ -1,0 +1,40 @@
+.sobre {
+  padding: 50px 0;
+  
+  .tecnologies {
+    display: inline-block;
+    padding: 30px 0;
+    border: 1px solid #f1f1f1;
+    
+    &:nth-child(1) {
+      .icons {
+        background: url("../img/html-5.png") no-repeat;
+        display: inline-block;
+      }
+    }
+    &:nth-child(2) {
+      .icons {
+        background: url("../img/css-3.png") no-repeat;
+        display: inline-block;
+      }
+    }
+    &:nth-child(3) {
+      .icons {
+        background: url("../img/java-script.png") no-repeat;
+        display: inline-block;
+      }
+    }
+    &:nth-child(4) {
+      .icons {
+        background: url("../img/php.png") no-repeat;
+        display: inline-block;
+      }
+    }
+  }
+  .icons{
+    &.icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

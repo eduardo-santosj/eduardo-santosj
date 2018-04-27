@@ -1,0 +1,17 @@
+{
+	"routes": {
+		"source": "src/",
+		"dist": "dist/"
+	},
+
+	"bs": {
+		"browserToOpen": "google chrome",
+		"portToStart": 3000,
+		"urlToGo": "http://localhost/"
+	},
+
+	"output": {
+		"cssFile": "style.min.css",
+		"jsFile": "main.min.js"
+	}
+}
