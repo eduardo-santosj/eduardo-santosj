@@ -17,6 +17,7 @@
 @media (max-width: 480px) {
   //HEADER
   .nav {
+    overflow-x: hidden;
     .brand {
       h1 {
         font-size: 20px;
